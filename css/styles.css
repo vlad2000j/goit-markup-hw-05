@@ -74,7 +74,7 @@ body {
 .svg-header {
   display: flex;
   align-items: center;
-  transition-property: var(--text-color);
+  transition-property: color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
@@ -123,7 +123,7 @@ body {
   font-size: 14px;
   line-height: 1.6px;
   color: #212121;
-  transition-property: var(--text-color);
+  transition-property: color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
   
@@ -358,7 +358,7 @@ pre {
   text-align: center;
   border: 1px solid transparent;
   cursor: pointer;
-  transition-property: var(--text-color);
+  transition-property: color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
   
@@ -642,7 +642,6 @@ pre {
   width: 44px;
   height: 44px;
   margin-right: 10px;
-  
 }
 
 .social-item:last-child {
@@ -671,7 +670,7 @@ pre {
 
 .social-icon {
   fill: #afb1b8;
-  transition-property: var(--grey-color);
+  transition-property: color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
@@ -736,7 +735,7 @@ pre {
   justify-content: center;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  transition-property: var(--grey-color);
+  transition-property: border-color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
   
@@ -748,7 +747,7 @@ pre {
 
 .clients-icons {
   fill: #afb1b8;
-    transition-property: var(--text-color);
+    transition-property: color;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
 }
